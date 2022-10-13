@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Практическая работа №1</title>
+</head>
+<body>
+<div name="result_container" class ="result_container" style="display: flex; flex-direction: row; margin-top: 10px ">
+  <h3 class="title" style="margin: 0 20px 0 0; padding: 0; font-weight: 200">Результат: </h3>
+  <p th:text="${first}" class="text_paragraph" style="margin: 0 5px;  padding: 2px 0 0 0"></p>
+  <p th:text="${operation}" style="margin: 0 5px 0; padding: 2px 0 0 0"></p>
+  <p th:text="${second}" style="margin: 0 5px 0; padding: 2px 0 0 0"></p>
+  <p style="margin: 0 5px 0; padding: 2px 0 0 0"> = </p>
+  <p th:text="${result}" style="margin: 0 5px 0; padding: 2px 0 0 0"></p>
+</div>
+</body>
+</html>
+
+
+

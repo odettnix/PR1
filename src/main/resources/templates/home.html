@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Практическая работа №1</title>
+</head>
+<body>
+<form>
+    <input type="number" id="first" placeholder="Первое число" name="first" required>
+    <label for="plus">+</label>
+    <input type="radio" id="plus" name="operation" value="+">
+    <label for="minus">-</label>
+    <input type="radio" id="minus" name="operation" value="-">
+    <label for="multiply">*</label>
+    <input type="radio" id="multiply" name="operation" value="*">
+    <label for="divide">/</label>
+    <input type="radio" id="divide" name="operation" value="/">
+    <input type="number" id="second" placeholder="Второе число" name="second" required>
+    <button type="submit" id="get_button" formaction="/calculator" formmethod="get">get</button>
+    <button type="submit" id="post_button" formaction="/calculator" formmethod="post">post</button>
+</form>
+
+
+
+
+
+</body>
+</html>
